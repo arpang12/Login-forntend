@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(738118.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: auto;
+    height: 420px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+    padding: 70px 30px;
+    
+}
+.engicon{
+    border-radius: 100%;
+    text-align: center;
+}
+.engi{
+    border-radius: 300%;
+    position: absolute;
+    top: -160px;
+    left: calc(-50%,-50%);
+    right: calc(20%)
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    
+}
+.loginboxp{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: cursive;
+    color: black;
+    
+    
+}
+.loginbox input[type="text"], input[type="password"]
+{
+    border:none;
+    border-bottom:  1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+    
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    background: #fb2525;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 20px;
+    
+    
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc110;
+    color:#000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+.login a:hover
+{
+    color: aqua;
+}
+.regisbox{
+    width: 700px;
+    height: 500px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+    padding: 70px;
+    
+}
+.regisbox input{
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: cursive;
+    color: black;
+}
+h2{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.regisboxp{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.regisbox input[type="text"], input[type="password"]
+{
+    border:none;
+    border-bottom:  1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
