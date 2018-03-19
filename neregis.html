@@ -3,22 +3,32 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
         <title> New Registration</title>
         <link rel="stylesheet" type="text/css" href="style2.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
         <body>
+            
+            <nav>
+                <ul>
+                    <li><a href="#"><i class="'fa fa-home"></i>Home</a></li>
+                    <li><a href="hmpage.html"><i class="fa-sign-in"></i>Log in</a></li>
+                    <li><a href="#"><i class="fa fa-user-o"></i>Tech Support</a></li>
+                </ul>
+            </nav>
             <div class="regisbox">
-                <form>
+                <form id="contactForm">
                     <center>
                     <h2>New Registration</h2>
                     <p1><i>Name</i></p1><br>
-                    <input type= "text" name="" placeholder="Enter your first name">
-                    <input type="text" name="" placeholder="Enter yor last name" maxlength="30">
+                    <input type= "text" name="" placeholder="Enter your first name" maxlength="30" id="name">
+                    <input type="text" name="" placeholder="Enter yor last name" maxlength="30"id ="name2">
                     <p>Valid Email ID</p>
-                    <input type="text" name="" placeholder="Enter your email ID">
+                    <input type="text" name="" placeholder="Enter your email ID" id ="email">
                     <br>
-                    <input type="text" name=""placeholder="Re-Enter your Email ID">
+                    <input type="text" name=""placeholder="Re-Enter your Email ID" id ="email2">
                     <p>Date of birth</p>
-                    <select>
+                    <select id="day">
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -50,7 +60,7 @@
                         <option>30</option>
                         <option>31</option>
                         </select>
-                        <select>
+                        <select id="month">
                         <option>January</option>
                         <option>Februray</option>
                         <option>March</option>
@@ -65,7 +75,7 @@
                         <option>December</option>
                         </select>
                         
-                        <input type="text" name="" placeholder="Year" maxlength="4">
+                        <input type="text" name="" placeholder="Year" maxlength="4" id="year">
                         
                     <p>Phone Number</p>
                     <select>
@@ -77,20 +87,27 @@
                         <option>+966</option>
                         <option>+968</option>
                     </select>
-                    <input type="text" name=""placeholder="Enter your valid Phone" maxlength="10"><br>
+                    <input type="text" name=""placeholder="Enter your valid Phone" maxlength="10" id="phone"><br>
                     <p>Gender:</p>
                     <input type="radio"value="male" name="sex">male
                     <input type="radio" value="female" name="sex">female
                     <p>Enter New Password</p>
-                    <input type="password" name="" placeholder="Enter your new Password">
-                    <input type="password" name="" placeholder="Re-Enter your Password"><br>
+                    <input type="password" name="" placeholder="Enter your new Password"id="pass">
+                    <input type="password" name="" placeholder="Re-Enter your Password"id ="pass2"><br>
                     </center>
-                    <input type = "checkbox" name="">are you sure you have completed all above form?<a href='#'>user's term and condition</a><br>
+                    <input type = "checkbox" name="">are you sure you have completed all above form?<a href='#'>user's term & condition</a><br>
                     <center><input type="submit" name="" value="Register"></center>
-                    
-                    
                </form>
             </div>
+            <footer>
+                <center>
+            <p>Made by: Arpan Guria</p>
+            <p>Contact information: <a href="mailto:someone@example.com">
+                www.arpanguria083@gmail.com</a>.</p>
+                </center>
+            </footer>
+            <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+            <script>src="base.js"</script>
         </body>
     </head>
 </html>
